@@ -1,8 +1,8 @@
 import { useState, useMemo } from "react";
-// import { Tool } from "../types";
+import { Tool } from "../types";
 import { filterTools, getAllCategories } from "../lib/data";
 
-export function useSearch() {
+export function useSearch(initialTools: Tool[]) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedPricing, setSelectedPricing] = useState("All");
