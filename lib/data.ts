@@ -1,5 +1,5 @@
 import tools from "../data/tools.json";
-import { Tool } from "../../ai-directory-tools/types";
+import { Tool } from "../types";
 
 // Get all tools
 export function getAllTools(): Tool[] {
