@@ -114,7 +114,7 @@ export default function Navbar() {
             ))}
 
             <Link
-              href={siteConfig.links.github}
+              href={"https://github.com/sudhir-kumar999"}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2"
